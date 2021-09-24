@@ -18,3 +18,16 @@ Anyone can download this repo, fork it and can do what you want with this.
 ### Release the detained leaders
 
 ### Democracy for Myanmar citizens
+
+
+## API Deploy Documentation
+
+`
+ npm install
+
+`
+`
+npm run dev
+
+`
+## Go to localhost:8080/products
