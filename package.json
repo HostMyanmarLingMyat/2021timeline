@@ -4,7 +4,7 @@
   "description": "This repo contains all the information about the military coup that's currently taking place in Myanmar in json format. Currently the timeline ends at Feb 28 but I will upload the timeline for March once I get all the necessary data. Anyone who wants to contribute or add more information is welcome. You can either pull request or can raise issues.",
   "main": "index.js",
   "scripts": {
-    "dev": "node index.js"
+    "dev": "nodemon --exec babel-node index"
   },
   "repository": {
     "type": "git",
@@ -18,6 +18,14 @@
   },
   "homepage": "https://github.com/hareom284/2021-military-coup-timeline#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "yarn": "^1.22.19"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.21.5",
+    "@babel/core": "^7.21.8",
+    "@babel/node": "^7.20.7",
+    "@babel/preset-env": "^7.21.5",
+    "nodemon": "^2.0.22"
   }
 }
